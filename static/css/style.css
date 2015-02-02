@@ -1,3 +1,30 @@
+.logo-container {
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+}
+
+#movers-row {
+  margin: -120px 0 0 120px;
+}
+#movers-row div {
+  width: 33.3%;
+  float: left;
+}
+#movers-row div img {
+  float: right;
+}
+
+.logos img {
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(100%);
+} 
+
+.logos img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+}
 .dropdown-arrow-inverse {
   border-bottom-color: #34495e !important;
   border-top-color: #34495e !important;
@@ -939,6 +966,18 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   margin: 0 50px;
   background: url("../../startup/common-files/img/header/btn-play.png") no-repeat;
 }
+.header-23-sub .hero-unit .btn-play:hover {
+  display: inline-block;
+  text-indent: -9999px;
+  vertical-align: middle;
+  overflow: hidden;
+  width: 67px;
+  height: 67px;
+  margin: 0 50px;
+  background: url("../../startup/common-files/img/header/btn-play.png") no-repeat;
+}
+
+
 @media (max-width: 991px) {
   .header-23-sub .hero-unit .btn-play {
     margin: 35px 0;
@@ -1445,7 +1484,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   }
 }
 .projects-2 .project-1 {
-  background-image: url('../../startup/common-files/img/Hawaii_001.jpg');
+  background-image: url('../../startup/common-files/img/texas.jpg');
 }
 .projects-2 .project-1 .container h1 {
   font-size: 50px;
@@ -1485,7 +1524,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   }
 }
 .projects-2 .project-3 {
-  background-image: url('../../startup/common-files/img/NY_002.jpg');
+  background-image: url('../../startup/common-files/img/arizona.jpg');
 }
 .projects-2 .project-3 [class*="fui-"] {
   font-size: 95px;
