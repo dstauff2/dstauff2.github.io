@@ -11,6 +11,11 @@
   display: inline-block;
 }
 
+ul.logos {
+  padding:0 0 0 0;
+  width:100%;
+}
+
 ul.logos li {
   display:inline-block;
   width: 12%;
